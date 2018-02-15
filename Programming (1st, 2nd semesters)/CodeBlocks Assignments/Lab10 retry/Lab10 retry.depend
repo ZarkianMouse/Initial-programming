@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1479425166 source:c:\users\naomi_000\documents\codeblocks assignments\lab10 retry\main.cpp
+	<iostream>
+	<iomanip>
+	<fstream>
+	<sstream>
+	<limits>
+	<cstdio>
+

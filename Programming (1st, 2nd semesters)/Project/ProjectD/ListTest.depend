@@ -1,0 +1,75 @@
+# depslib dependency file v1.0
+1507488944 source:c:\users\naomi\documents\programming (college)\project\burhoe_project_a\labclass.cpp
+	<iostream>
+	<string>
+	"LabClass.hpp"
+
+1507489215 c:\users\naomi\documents\programming (college)\project\burhoe_project_a\labclass.hpp
+	<string>
+
+1512496527 source:c:\users\naomi\documents\programming (college)\codeblocks assignments\listtest\labclass.cpp
+	<iostream>
+	<iomanip>
+	<string>
+	"LabClass.hpp"
+
+1513027766 c:\users\naomi\documents\programming (college)\codeblocks assignments\listtest\labclass.hpp
+	<string>
+
+1513031161 source:c:\users\naomi\documents\programming (college)\codeblocks assignments\listtest\main.cpp
+	<iostream>
+	<memory>
+	<iomanip>
+	<string>
+	<stdio.h>
+	<cstdlib>
+	<ctime>
+	<ctype.h>
+	<queue>
+	<exception>
+	"UniversityList.hpp"
+	"LabFunctions.hpp"
+	"myConstants.h"
+
+1513028514 c:\users\naomi\documents\programming (college)\codeblocks assignments\listtest\universitylist.hpp
+	"LabClass.hpp"
+
+1507657231 c:\users\naomi\documents\programming (college)\codeblocks assignments\listtest\myconstants.h
+
+1513028514 c:\users\naomi\documents\programming (college)\codeblocks assignments\listtest\labfunctions.hpp
+	<queue>
+	<map>
+	"UniversityList.hpp"
+
+1513030536 source:c:\users\naomi\documents\programming (college)\codeblocks assignments\listtest\labfunctions.cpp
+	<iostream>
+	<memory>
+	<iomanip>
+	<string>
+	<stdio.h>
+	<cstdlib>
+	<ctime>
+	<ctype.h>
+	<sstream>
+	<fstream>
+	<queue>
+	"LabFunctions.hpp"
+	"myConstants.h"
+
+1509818795 c:\users\naomi\documents\programming (college)\codeblocks assignments\listtest\labfunctions.h
+
+1513029411 source:c:\users\naomi\documents\programming (college)\codeblocks assignments\listtest\universitylist.cpp
+	<iostream>
+	<stdio.h>
+	<cstdlib>
+	<ctime>
+	<chrono>
+	<ctype.h>
+	<fstream>
+	<memory>
+	<iomanip>
+	"UniversityList.hpp"
+	"LabClass.hpp"
+	"LabFunctions.hpp"
+	"myConstants.h"
+

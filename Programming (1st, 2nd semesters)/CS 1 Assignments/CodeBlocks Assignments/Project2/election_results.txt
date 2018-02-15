@@ -1,0 +1,20 @@
+Election Result Data
+Total ballots: 82
+Staff members that voted: 55
+The new president is 'The New Guy'
+The President (24 votes), The New Guy (31 votes)
+Amendment 1 fails with 29 yes votes, and 26 no votes
+Amendment 2 passes with 39 yes votes, and 16 no votes
+Amendment 3 fails with 31 yes votes, and 24 no votes
+Amendment 4 passes with 37 yes votes, and 18 no votes
+Amendment 5 fails with 35 yes votes, and 20 no votes
+Amendment 6 fails with 21 yes votes, and 34 no votes
+Amendment 7 passes with 48 yes votes, and 7 no votes
+Amendment 8 fails with 16 yes votes, and 39 no votes
+Amendment 9 passes with 47 yes votes, and 8 no votes
+Amendment 10 fails with 20 yes votes, and 35 no votes
+Now hospital rules include: 
+From now on the annual Cinco de Mayo party will be held on March 8.
+Doctors are now allowed to talk about fight club.
+From now on the President will take our birthdays off.
+New staff members are ordered to learn OUR secret handshake.

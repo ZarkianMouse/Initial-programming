@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1479146676 source:c:\users\naomi_000\documents\cs 1 assignments\codeblocks assignments\project2\main.cpp
+	<iostream>
+	<iomanip>
+	<cstdlib>
+	<fstream>
+	<limits>
+	<string>
+

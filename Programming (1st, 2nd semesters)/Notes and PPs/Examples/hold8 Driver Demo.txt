@@ -1,0 +1,54 @@
+//  COPYRIGHT (C) Will Crissey, Jr. 2015  All rights reserved.
+//  This program is a demonstration of:
+//  1) A template class
+//  2) A specialized template class
+//  A class that stores 8 objects
+//
+// This TEMPLATE class will take any type and create 8 objects
+// by using an array
+#include <iostream>
+#include "HoldEight.hpp"
+// very good. But this template works for all data types but one - bool
+// CPU can’t address anything smaller than a byte
+// variable of type bool ends up using an entire byte even
+// though technically it only needs a single bit
+// so we have 1 byte worth of useful information and 7 bytes of wasted space
+// we are going to use bit logic, it’s possible to compress all
+// 8 bools into a single byte
+// we will create a specialized class template for bool
+// driver
+int main()
+{
+    // Define a HoldsEight for integers
+    HoldsEight<int> intStorage;
+    for (int count = 0; count < 8; ++count) {
+        intStorage.set(count, count);
+    }
+    // maybe try printing this :-)
+
+
+    for (int count = 0; count < 8; ++count) {
+        std::cout << intStorage.get(count) << std::endl;
+    }
+
+    std::cout << std::endl;
+    // Define a HoldsEight for bool - test our new spec. class template
+    HoldsEight<bool> boolStorage;
+    for (int count = 0; count < 8; ++count) {
+        boolStorage.set(count, count & 3);
+    }
+
+    for (int count = 0; count < 8; ++count) {
+        std::cout << (boolStorage.get(count) ? "true" : "false") << std::endl;
+    }
+
+
+  return 0;
+}
+// let's test this
+
+
+
+
+
+

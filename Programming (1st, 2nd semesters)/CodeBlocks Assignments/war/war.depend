@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1446667744 source:c:\users\naomi\documents\programming (college)\codeblocks assignments\war\main.cpp
+	<iostream>
+
+1516927890 source:c:\users\naomi\documents\github\practice-oop\war\main.cpp
+	"card.hpp"
+	<iostream>
+
+1516928575 c:\users\naomi\documents\github\practice-oop\war\card.hpp
+	<iostream>
+

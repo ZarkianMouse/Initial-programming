@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1484604242 source:c:\users\naomi_000\documents\codeblocks assignments\matching game exo\main.cpp
+	<iostream>
+	<iomanip>
+	<cstdlib>
+	<ctime>
+	<string>
+

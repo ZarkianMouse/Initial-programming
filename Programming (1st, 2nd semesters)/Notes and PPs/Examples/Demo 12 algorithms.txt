@@ -1,0 +1,92 @@
+// THIS PROGRAM'S CONTENT IS PROTECTED
+// The code and associated content are either the property of, 
+// or used with permission by, The University of Akron,
+// Department of Computer Science and may be protected by copyright
+// and other restrictions. Copyrights in the site
+// content may also be owned by individuals and entities other than,
+// and in addition to, The University of Akron,
+// Department of Computer Science. The use of this code by you,
+// or anyone else authorized by you, is prohibited,
+// except for purposes of testing.
+// Any unauthorized use of the coding may violate
+// copyright laws, trademark laws, the laws of privacy and publicity,
+// and communications regulations and statutes.
+
+// Using algorithms from the STL
+//
+// The STL separates the algorithms from the
+// containers. This makes it much easier to add new algorithms.
+//
+// STL algorithms do not depend on the implementation details
+// of the containers on which they operate.
+//
+// As long as the container’s (or array’s) iterators satisfy the
+// requirements of the algorithm, STL algorithms can work on
+// C-style, pointer-based arrays, on STL containers and on our own
+// user-defined data structures.
+//
+// Demo - Standard Library algorithms fill, fill_n, generate and generate_n.
+//
+
+#include <iostream>
+
+#include <algorithm> // oh my yes!
+#include <vector>   // vector class-template definition
+#include <iterator> // ostream_iterator
+
+char nextLetter();  // prototype of generator function
+
+int main()
+{
+  // let's use a vector - holds 10 chars
+  std::vector< char > chars( 10 );
+  std::ostream_iterator< char > output( std::cout, " " );
+
+  /*******************  fill and fill_n **********************/
+  // fill and fill_n set every element in a range of
+  // container elements to a specific value
+
+  // btw, the iterator just has to be a forward one (can do I/O in that direction)
+
+  fill( chars.begin(), chars.end(), '5' ); // fill chars with 5s
+
+  // this will place the character '5' in every element from
+  // chars.begin() up to, but not including, chars.end()
+
+  std::cout << "Vector chars after filling with 5s:\n";
+  copy( chars.begin(), chars.end(), output );
+
+  // fill first five elements of chars with As - fill_n
+  // the iterator has to be at least an output one
+  // (can do output in a fwd direction)
+  // args? 1st - iterator, 2nd - number of elements to fill, 3rd - value to use
+  fill_n( chars.begin(), 5, 'A' );
+
+  std::cout << "\n\nVector chars after filling five elements with As:\n";
+  copy( chars.begin(), chars.end(), output );
+
+  /***************  generate and generate_n *****************/
+  // generate and generate_n use a generator function to create values
+  // for every element in a range of elements (begin up to, but not including end)
+  //
+  // returns a value we can place into the container
+  // call is to the generator function nextLetter
+  //
+  // generate values for all elements of chars with nextLetter
+  generate( chars.begin(), chars.end(), nextLetter );
+
+  std::cout << "\n\nVector chars after generating letters A-J:\n";
+  copy( chars.begin(), chars.end(), output );
+
+  // _n behaves much like the fill_n, needs output iterator, etc...
+  // generate values for first five elements of chars with nextLetter
+  generate_n( chars.begin(), 5, nextLetter );
+
+  std::cout << "\n\nVector chars after generating K-O for the"
+       << " first five elements:\n";
+  copy( chars.begin(), chars.end(), output );
+
+  std::cout << std::endl;
+
+  return 0;
+}

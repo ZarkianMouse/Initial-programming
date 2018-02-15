@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1476328405 source:c:\users\naomi_000\documents\codeblocks assignments\assign%b\main.cpp
+	<iostream>
+	<cstdlib>
+	<ctime>
+

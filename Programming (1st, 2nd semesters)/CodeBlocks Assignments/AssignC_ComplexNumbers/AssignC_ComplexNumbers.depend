@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1506491539 source:c:\users\naomi\documents\programming (college)\codeblocks assignments\assignc_complexnumbers\main.cpp
+	<iostream>
+	<string>
+	<memory>
+	<sstream>
+	"Complex.hpp"
+
+1506491916 c:\users\naomi\documents\programming (college)\codeblocks assignments\assignc_complexnumbers\complex.hpp
+	<iostream>
+	<memory>
+
+1506492169 source:c:\users\naomi\documents\programming (college)\codeblocks assignments\assignc_complexnumbers\complex.cpp
+	"Complex.hpp"
+	<iostream>
+	<memory>
+	<string>
+	<sstream>
+

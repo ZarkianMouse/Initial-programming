@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1480567588 source:c:\users\naomi_000\documents\codeblocks assignments\project 3 reverb\main.cpp
+	<iostream>
+	<iomanip>
+	<fstream>
+

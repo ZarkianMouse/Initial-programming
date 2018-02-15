@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1481073045 source:c:\users\naomi_000\documents\codeblocks assignments\asign9a\main.cpp
+	<iostream>
+	<cstdlib>
+	<cstring>
+	"reverse.hpp"
+
+1481075366 c:\users\naomi_000\documents\codeblocks assignments\asign9a\reverse.hpp
+

@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1508884469 source:c:\users\naomi\documents\programming (college)\codeblocks assignments\stringstack\main (for string stack).cpp
+	<iostream>
+	"DynStringStack.hpp"
+
+1508966421 c:\users\naomi\documents\programming (college)\codeblocks assignments\stringstack\dynstringstack.hpp
+	<iostream>
+	<string>
+

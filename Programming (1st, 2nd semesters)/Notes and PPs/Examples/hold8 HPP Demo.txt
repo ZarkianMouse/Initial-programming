@@ -1,0 +1,54 @@
+#ifndef HOLDEIGHT_HPP
+#define HOLDEIGHT_HPP
+//   COPYRIGHT (C) Will Crissey, Jr. 2016  All rights reserved.
+template <class T> // so any T will be replaced for my class by ints/doubles/chars...
+class HoldsEight
+{
+private:
+    T myArray[8];
+
+public:
+  // my setter function
+    void set(int index, const T &value)
+    {
+        myArray[index] = value;
+    }
+  //my getter function
+    const T& get(int index)
+    {
+        return myArray[index];
+    }
+};
+
+// keep my template and now add the specialized one (SAME NAME)
+template <> // the following is a template class with no templated parameters
+class HoldsEight<bool> // we're specializing HoldsEight for bool
+{
+// What follows is just standard class implementation details
+private:
+    unsigned char myData;
+    // we will cover bit operations later
+public:
+    void set(int index, bool value)
+    {
+        // Figure out which bit we're setting/unsetting
+        // This will put a 1 in the bit we're interested in turning on/off
+        unsigned char mask = 1 << index;
+
+        if (value)  // If we're setting a bit
+            myData |= mask;  // Use bitwise-or to turn that bit on
+        else  // if we're turning a bit off
+            myData &= ~mask;  // bitwise-and the inverse mask to turn that bit off
+	   }
+
+    bool get(int index)
+    {
+        // Figure out which bit we're getting
+        unsigned char mask = 1 << index;
+        // bitwise-and to get the value of the bit we're interested in
+        // Then implicit cast to boolean
+        return myData & mask;
+    }
+};
+
+#endif

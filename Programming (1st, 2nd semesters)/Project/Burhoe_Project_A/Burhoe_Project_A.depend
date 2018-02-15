@@ -1,0 +1,58 @@
+# depslib dependency file v1.0
+1504911232 source:c:\users\naomi\documents\programming (college)\project\burhoe_project_a\main.cpp
+	<iostream>
+	<memory>
+	<iomanip>
+	<string>
+	<sstream>
+	<istream>
+	<stdio.h>
+	<ctype.h>
+
+1507488944 source:c:\users\naomi\documents\programming (college)\project\burhoe_project_a\labclass.cpp
+	<iostream>
+	<string>
+	"LabClass.hpp"
+
+1507489215 c:\users\naomi\documents\programming (college)\project\burhoe_project_a\labclass.hpp
+	<string>
+
+1507597828 source:c:\users\naomi\documents\programming (college)\project\burhoe_project_a\labfunctions.cpp
+	<iostream>
+	<memory>
+	<iomanip>
+	<string>
+	<stdio.h>
+	<cstdlib>
+	<ctime>
+	<ctype.h>
+	"LabClass.hpp"
+	"LabFunctions.hpp"
+	"myConstants.hpp"
+
+1507501930 c:\users\naomi\documents\programming (college)\project\burhoe_project_a\labfunctions.hpp
+
+1507660831 source:c:\users\naomi\documents\programming (college)\project\burhoe_project_a\labsmain.cpp
+	<iostream>
+	<cstdlib>
+	<ctime>
+	"LabClass.hpp"
+	"LabFunctions.hpp"
+	"myConstants.h"
+
+1507660831 source:c:\users\naomi\documents\programming (college)\project\burhoe_project_a\labinputoutput.cpp
+	<iostream>
+	<memory>
+	<iomanip>
+	<cstdlib>
+	<string>
+	<sstream>
+	<istream>
+	"LabClass.hpp"
+	"LabFunctions.hpp"
+	"myConstants.h"
+
+1507597149 c:\users\naomi\documents\programming (college)\project\burhoe_project_a\myconstants.hpp
+
+1507660831 c:\users\naomi\documents\programming (college)\project\burhoe_project_a\myconstants.h
+

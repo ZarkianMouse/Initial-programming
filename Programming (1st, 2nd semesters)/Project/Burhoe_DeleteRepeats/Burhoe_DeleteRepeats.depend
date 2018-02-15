@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1504385370 source:c:\users\naomi\documents\programming (college)\project\burhoe_deleterepeats\main.cpp
+	<iostream>
+	<memory>
+	<iomanip>
+

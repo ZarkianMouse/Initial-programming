@@ -1,0 +1,90 @@
+#ifndef LLSTACK_H
+#define LLSTACK_H
+
+struct Node
+{
+  int data;     // the data
+  Node *next;   // the pointer to chain the list 
+
+  Node(const int &num)
+           : data(num), next(0) {}  // LL point to null at the end of the list
+};
+
+class LLStack
+{
+private:
+  Node *top; // the top of the stack;
+  int size;  // count the number of elements currently in the list
+
+ public:
+  LLStack();  // make a new one, empty
+  ~LLStack(); // destructor
+  // our stack operations
+  void push(const int&);
+  bool pop(int&);
+  bool peek(int&);
+  bool isEmpty();
+};
+
+// default constructor
+LLStack::LLStack()
+{
+    top = 0;
+    size = 0;
+}
+
+// this will keep going until the stack is empty
+LLStack::~LLStack()
+{
+  int temp;
+  while(!isEmpty())
+  {
+    pop(temp);
+  }
+}
+
+// push will allocate a new node and place it at the top
+// notice how we are using num
+void
+LLStack::push(const int &num)
+{
+  Node *newNode = new Node(num);  // dynamic alloc new node
+  newNode->next = top;            // the current top will be the next
+  top = newNode;                  // now set top to this new node
+}
+
+// first in is first out
+// check to see if there's anything in there
+bool
+LLStack::pop(int &num)
+{
+  if (isEmpty())
+  {
+    return false;
+  }
+
+  num = top->data;   // num is set to the data
+  Node *temp = top;  // create a temp ptr to the node we will remove
+  top = top->next;   // set the top to the next item (that will be the top now)
+  delete temp;       // now we can delete it
+  return true;
+}
+
+bool
+LLStack::peek(int& num)
+{
+  if (isEmpty())
+  {
+    return false;
+  }
+  num = top->data;
+  return true;
+}
+
+bool
+LLStack::isEmpty()
+{
+  return top == 0;
+}
+
+#endif

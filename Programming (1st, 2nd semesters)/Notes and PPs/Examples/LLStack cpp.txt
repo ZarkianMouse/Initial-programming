@@ -1,0 +1,40 @@
+// for this demo we will make a stack implemented as a linked list
+
+#include <iostream>
+#include "LLStack.hpp"
+
+int main()
+{
+  int size = 10;
+
+  // create a new ArrayStack
+  LLStack *lls = new LLStack();
+
+  // fill it up - push is like with the vector
+  for (int i = 0; i < size * 2; ++i)
+  {
+    lls->push(i);
+  }
+
+  int temp, peeked; // to hold values off the stack
+  // output the stack by popping them off one by one
+
+  // check the stack using the empty method from our stack class
+  std::cout << "It " << (lls->isEmpty() ? "is " : "is not ") << "empty" << std::endl;
+
+  // let's use our peek method - similar to your TODO in the Rational project
+  // it's like a pop, except it returns the value of the top of our collection
+  // but without modifying it
+  while (lls->peek(peeked))
+  {
+    lls->pop(temp);
+    if (temp == peeked) // did we pop what we previously peeked :)
+    {
+      std::cout << "Were good: " << temp << std::endl;
+    }
+    else
+    {
+      std::cout << "No." << std::endl;
+    }
+  }
+}

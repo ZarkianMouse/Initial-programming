@@ -1,0 +1,493 @@
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+ no time accumulated
+
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls  Ts/call  Ts/call  name    
+  0.00      0.00     0.00       12     0.00     0.00  std::__deque_buf_size(unsigned int)
+  0.00      0.00     0.00        8     0.00     0.00  LabList::LabList()
+  0.00      0.00     0.00        6     0.00     0.00  std::_Deque_iterator<Console, Console&, Console*>::_Deque_iterator(std::_Deque_iterator<Console, Console&, Console*> const&)
+  0.00      0.00     0.00        6     0.00     0.00  std::remove_reference<std::_Deque_iterator<Console, Console&, Console*>&>::type&& std::move<std::_Deque_iterator<Console, Console&, Console*>&>(std::_Deque_iterator<Console, Console&, Console*>&)
+  0.00      0.00     0.00        5     0.00     0.00  std::_Deque_iterator<Console, Console&, Console*>::_S_buffer_size()
+  0.00      0.00     0.00        4     0.00     0.00  std::_Deque_iterator<Console, Console&, Console*>::_M_set_node(Console**)
+  0.00      0.00     0.00        4     0.00     0.00  std::_Deque_iterator<Console, Console&, Console*>::_Deque_iterator()
+  0.00      0.00     0.00        3     0.00     0.00  __gnu_cxx::new_allocator<Console*>::new_allocator()
+  0.00      0.00     0.00        3     0.00     0.00  __gnu_cxx::new_allocator<Console*>::~new_allocator()
+  0.00      0.00     0.00        3     0.00     0.00  std::_Deque_base<Console, std::allocator<Console> >::_M_get_Tp_allocator() const
+  0.00      0.00     0.00        3     0.00     0.00  std::_Deque_base<Console, std::allocator<Console> >::_M_get_map_allocator() const
+  0.00      0.00     0.00        3     0.00     0.00  std::allocator<Console*>::allocator<Console>(std::allocator<Console> const&)
+  0.00      0.00     0.00        3     0.00     0.00  std::allocator<Console*>::~allocator()
+  0.00      0.00     0.00        3     0.00     0.00  std::_Deque_base<Console, std::allocator<Console> >::_M_get_Tp_allocator()
+  0.00      0.00     0.00        3     0.00     0.00  std::remove_reference<Console**&>::type&& std::move<Console**&>(Console**&)
+  0.00      0.00     0.00        3     0.00     0.00  std::remove_reference<unsigned int&>::type&& std::move<unsigned int&>(unsigned int&)
+  0.00      0.00     0.00        2     0.00     0.00  __gnu_cxx::new_allocator<Console>::allocate(unsigned int, void const*)
+  0.00      0.00     0.00        2     0.00     0.00  __gnu_cxx::new_allocator<Console*>::allocate(unsigned int, void const*)
+  0.00      0.00     0.00        2     0.00     0.00  __gnu_cxx::new_allocator<Console>::max_size() const
+  0.00      0.00     0.00        2     0.00     0.00  __gnu_cxx::new_allocator<Console*>::max_size() const
+  0.00      0.00     0.00        2     0.00     0.00  std::_Deque_base<Console, std::allocator<Console> >::_M_allocate_map(unsigned int)
+  0.00      0.00     0.00        2     0.00     0.00  std::_Deque_base<Console, std::allocator<Console> >::_M_create_nodes(Console**, Console**)
+  0.00      0.00     0.00        2     0.00     0.00  std::_Deque_base<Console, std::allocator<Console> >::_M_allocate_node()
+  0.00      0.00     0.00        2     0.00     0.00  std::_Deque_base<Console, std::allocator<Console> >::_M_initialize_map(unsigned int)
+  0.00      0.00     0.00        2     0.00     0.00  unsigned int const& std::max<unsigned int>(unsigned int const&, unsigned int const&)
+  0.00      0.00     0.00        2     0.00     0.00  std::remove_reference<std::allocator<Console>&>::type&& std::move<std::allocator<Console>&>(std::allocator<Console>&)
+  0.00      0.00     0.00        2     0.00     0.00  std::remove_reference<std::deque<Console, std::allocator<Console> >&>::type&& std::move<std::deque<Console, std::allocator<Console> >&>(std::deque<Console, std::allocator<Console> >&)
+  0.00      0.00     0.00        2     0.00     0.00  void std::swap<std::_Deque_iterator<Console, Console&, Console*> >(std::_Deque_iterator<Console, Console&, Console*>&, std::_Deque_iterator<Console, Console&, Console*>&)
+  0.00      0.00     0.00        1     0.00     0.00  labMenu()
+  0.00      0.00     0.00        1     0.00     0.00  __gnu_cxx::new_allocator<Console>::deallocate(Console*, unsigned int)
+  0.00      0.00     0.00        1     0.00     0.00  __gnu_cxx::new_allocator<Console>::new_allocator(__gnu_cxx::new_allocator<Console> const&)
+  0.00      0.00     0.00        1     0.00     0.00  __gnu_cxx::new_allocator<Console>::new_allocator()
+  0.00      0.00     0.00        1     0.00     0.00  __gnu_cxx::new_allocator<Console>::~new_allocator()
+  0.00      0.00     0.00        1     0.00     0.00  __gnu_cxx::new_allocator<Console*>::deallocate(Console**, unsigned int)
+  0.00      0.00     0.00        1     0.00     0.00  std::deque<Console, std::allocator<Console> >::size() const
+  0.00      0.00     0.00        1     0.00     0.00  std::queue<Console, std::deque<Console, std::allocator<Console> > >::size() const
+  0.00      0.00     0.00        1     0.00     0.00  std::allocator<Console>::allocator(std::allocator<Console> const&)
+  0.00      0.00     0.00        1     0.00     0.00  std::allocator<Console>::allocator()
+  0.00      0.00     0.00        1     0.00     0.00  std::allocator<Console>::~allocator()
+  0.00      0.00     0.00        1     0.00     0.00  std::_Deque_base<Console, std::allocator<Console> >::_Deque_impl::_Deque_impl(std::allocator<Console>&&)
+  0.00      0.00     0.00        1     0.00     0.00  std::_Deque_base<Console, std::allocator<Console> >::_Deque_impl::_Deque_impl()
+  0.00      0.00     0.00        1     0.00     0.00  std::_Deque_base<Console, std::allocator<Console> >::_Deque_impl::~_Deque_impl()
+  0.00      0.00     0.00        1     0.00     0.00  std::_Deque_base<Console, std::allocator<Console> >::_M_destroy_nodes(Console**, Console**)
+  0.00      0.00     0.00        1     0.00     0.00  std::_Deque_base<Console, std::allocator<Console> >::_M_deallocate_map(Console**, unsigned int)
+  0.00      0.00     0.00        1     0.00     0.00  std::_Deque_base<Console, std::allocator<Console> >::_M_deallocate_node(Console*)
+  0.00      0.00     0.00        1     0.00     0.00  std::_Deque_base<Console, std::allocator<Console> >::_Deque_base(std::_Deque_base<Console, std::allocator<Console> >&&)
+  0.00      0.00     0.00        1     0.00     0.00  std::_Deque_base<Console, std::allocator<Console> >::_Deque_base()
+  0.00      0.00     0.00        1     0.00     0.00  std::_Deque_base<Console, std::allocator<Console> >::~_Deque_base()
+  0.00      0.00     0.00        1     0.00     0.00  void std::_Destroy_aux<false>::__destroy<Console*>(Console*, Console*)
+  0.00      0.00     0.00        1     0.00     0.00  std::deque<Console, std::allocator<Console> >::_M_destroy_data(std::_Deque_iterator<Console, Console&, Console*>, std::_Deque_iterator<Console, Console&, Console*>, std::allocator<Console> const&)
+  0.00      0.00     0.00        1     0.00     0.00  std::deque<Console, std::allocator<Console> >::_M_destroy_data_aux(std::_Deque_iterator<Console, Console&, Console*>, std::_Deque_iterator<Console, Console&, Console*>)
+  0.00      0.00     0.00        1     0.00     0.00  std::deque<Console, std::allocator<Console> >::end()
+  0.00      0.00     0.00        1     0.00     0.00  std::deque<Console, std::allocator<Console> >::begin()
+  0.00      0.00     0.00        1     0.00     0.00  std::deque<Console, std::allocator<Console> >::deque(std::deque<Console, std::allocator<Console> >&&)
+  0.00      0.00     0.00        1     0.00     0.00  std::deque<Console, std::allocator<Console> >::deque()
+  0.00      0.00     0.00        1     0.00     0.00  std::deque<Console, std::allocator<Console> >::~deque()
+  0.00      0.00     0.00        1     0.00     0.00  std::queue<Console, std::deque<Console, std::allocator<Console> > >::queue(std::deque<Console, std::allocator<Console> >&&)
+  0.00      0.00     0.00        1     0.00     0.00  void std::swap<Console**>(Console**&, Console**&)
+  0.00      0.00     0.00        1     0.00     0.00  void std::swap<unsigned int>(unsigned int&, unsigned int&)
+  0.00      0.00     0.00        1     0.00     0.00  void std::_Destroy<Console*>(Console*, Console*)
+  0.00      0.00     0.00        1     0.00     0.00  void std::_Destroy<Console*, Console>(Console*, Console*, std::allocator<Console>&)
+  0.00      0.00     0.00        1     0.00     0.00  std::_Deque_iterator<Console, Console&, Console*>::difference_type std::operator-<Console, Console&, Console*>(std::_Deque_iterator<Console, Console&, Console*> const&, std::_Deque_iterator<Console, Console&, Console*> const&)
+
+ %         the percentage of the total running time of the
+time       program used by this function.
+
+cumulative a running sum of the number of seconds accounted
+ seconds   for by this function and those listed above it.
+
+ self      the number of seconds accounted for by this
+seconds    function alone.  This is the major sort for this
+           listing.
+
+calls      the number of times this function was invoked, if
+           this function is profiled, else blank.
+ 
+ self      the average number of milliseconds spent in this
+ms/call    function per call, if this function is profiled,
+	   else blank.
+
+ total     the average number of milliseconds spent in this
+ms/call    function and its descendents per call, if this 
+	   function is profiled, else blank.
+
+name       the name of the function.  This is the minor sort
+           for this listing. The index shows the location of
+	   the function in the gprof listing. If the index is
+	   in parenthesis it shows where it would appear in
+	   the gprof listing if it were to be printed.
+
+Copyright (C) 2012 Free Software Foundation, Inc.
+
+Copying and distribution of this file, with or without modification,
+are permitted in any medium without royalty provided the copyright
+notice and this notice are preserved.
+
+		     Call graph (explanation follows)
+
+
+granularity: each sample hit covers 4 byte(s) no time propagated
+
+index % time    self  children    called     name
+                0.00    0.00       1/12          std::_Deque_base<Console, std::allocator<Console> >::_M_deallocate_node(Console*) [46]
+                0.00    0.00       2/12          std::_Deque_base<Console, std::allocator<Console> >::_M_allocate_node() [24]
+                0.00    0.00       4/12          std::_Deque_base<Console, std::allocator<Console> >::_M_initialize_map(unsigned int) [25]
+                0.00    0.00       5/12          std::_Deque_iterator<Console, Console&, Console*>::_S_buffer_size() [6]
+[2]      0.0    0.00    0.00      12         std::__deque_buf_size(unsigned int) [2]
+-----------------------------------------------
+                0.00    0.00       8/8           main [2717]
+[3]      0.0    0.00    0.00       8         LabList::LabList() [3]
+-----------------------------------------------
+                0.00    0.00       1/6           std::deque<Console, std::allocator<Console> >::end() [53]
+                0.00    0.00       1/6           std::deque<Console, std::allocator<Console> >::begin() [54]
+                0.00    0.00       2/6           std::deque<Console, std::allocator<Console> >::_M_destroy_data(std::_Deque_iterator<Console, Console&, Console*>, std::_Deque_iterator<Console, Console&, Console*>, std::allocator<Console> const&) [51]
+                0.00    0.00       2/6           void std::swap<std::_Deque_iterator<Console, Console&, Console*> >(std::_Deque_iterator<Console, Console&, Console*>&, std::_Deque_iterator<Console, Console&, Console*>&) [29]
+[4]      0.0    0.00    0.00       6         std::_Deque_iterator<Console, Console&, Console*>::_Deque_iterator(std::_Deque_iterator<Console, Console&, Console*> const&) [4]
+-----------------------------------------------
+                0.00    0.00       6/6           void std::swap<std::_Deque_iterator<Console, Console&, Console*> >(std::_Deque_iterator<Console, Console&, Console*>&, std::_Deque_iterator<Console, Console&, Console*>&) [29]
+[5]      0.0    0.00    0.00       6         std::remove_reference<std::_Deque_iterator<Console, Console&, Console*>&>::type&& std::move<std::_Deque_iterator<Console, Console&, Console*>&>(std::_Deque_iterator<Console, Console&, Console*>&) [5]
+-----------------------------------------------
+                0.00    0.00       1/5           std::_Deque_iterator<Console, Console&, Console*>::difference_type std::operator-<Console, Console&, Console*>(std::_Deque_iterator<Console, Console&, Console*> const&, std::_Deque_iterator<Console, Console&, Console*> const&) [63]
+                0.00    0.00       4/5           std::_Deque_iterator<Console, Console&, Console*>::_M_set_node(Console**) [7]
+[6]      0.0    0.00    0.00       5         std::_Deque_iterator<Console, Console&, Console*>::_S_buffer_size() [6]
+                0.00    0.00       5/12          std::__deque_buf_size(unsigned int) [2]
+-----------------------------------------------
+                0.00    0.00       4/4           std::_Deque_base<Console, std::allocator<Console> >::_M_initialize_map(unsigned int) [25]
+[7]      0.0    0.00    0.00       4         std::_Deque_iterator<Console, Console&, Console*>::_M_set_node(Console**) [7]
+                0.00    0.00       4/5           std::_Deque_iterator<Console, Console&, Console*>::_S_buffer_size() [6]
+-----------------------------------------------
+                0.00    0.00       2/4           std::_Deque_base<Console, std::allocator<Console> >::_Deque_impl::_Deque_impl(std::allocator<Console>&&) [41]
+                0.00    0.00       2/4           std::_Deque_base<Console, std::allocator<Console> >::_Deque_impl::_Deque_impl() [42]
+[8]      0.0    0.00    0.00       4         std::_Deque_iterator<Console, Console&, Console*>::_Deque_iterator() [8]
+-----------------------------------------------
+                0.00    0.00       3/3           std::allocator<Console*>::allocator<Console>(std::allocator<Console> const&) [13]
+[9]      0.0    0.00    0.00       3         __gnu_cxx::new_allocator<Console*>::new_allocator() [9]
+-----------------------------------------------
+                0.00    0.00       3/3           std::allocator<Console*>::~allocator() [14]
+[10]     0.0    0.00    0.00       3         __gnu_cxx::new_allocator<Console*>::~new_allocator() [10]
+-----------------------------------------------
+                0.00    0.00       3/3           std::_Deque_base<Console, std::allocator<Console> >::_M_get_map_allocator() const [12]
+[11]     0.0    0.00    0.00       3         std::_Deque_base<Console, std::allocator<Console> >::_M_get_Tp_allocator() const [11]
+-----------------------------------------------
+                0.00    0.00       1/3           std::_Deque_base<Console, std::allocator<Console> >::_M_deallocate_map(Console**, unsigned int) [45]
+                0.00    0.00       2/3           std::_Deque_base<Console, std::allocator<Console> >::_M_allocate_map(unsigned int) [22]
+[12]     0.0    0.00    0.00       3         std::_Deque_base<Console, std::allocator<Console> >::_M_get_map_allocator() const [12]
+                0.00    0.00       3/3           std::_Deque_base<Console, std::allocator<Console> >::_M_get_Tp_allocator() const [11]
+                0.00    0.00       3/3           std::allocator<Console*>::allocator<Console>(std::allocator<Console> const&) [13]
+-----------------------------------------------
+                0.00    0.00       3/3           std::_Deque_base<Console, std::allocator<Console> >::_M_get_map_allocator() const [12]
+[13]     0.0    0.00    0.00       3         std::allocator<Console*>::allocator<Console>(std::allocator<Console> const&) [13]
+                0.00    0.00       3/3           __gnu_cxx::new_allocator<Console*>::new_allocator() [9]
+-----------------------------------------------
+                0.00    0.00       1/3           std::_Deque_base<Console, std::allocator<Console> >::_M_deallocate_map(Console**, unsigned int) [45]
+                0.00    0.00       2/3           std::_Deque_base<Console, std::allocator<Console> >::_M_allocate_map(unsigned int) [22]
+[14]     0.0    0.00    0.00       3         std::allocator<Console*>::~allocator() [14]
+                0.00    0.00       3/3           __gnu_cxx::new_allocator<Console*>::~new_allocator() [10]
+-----------------------------------------------
+                0.00    0.00       1/3           std::_Deque_base<Console, std::allocator<Console> >::_Deque_base(std::_Deque_base<Console, std::allocator<Console> >&&) [47]
+                0.00    0.00       1/3           std::deque<Console, std::allocator<Console> >::_M_destroy_data_aux(std::_Deque_iterator<Console, Console&, Console*>, std::_Deque_iterator<Console, Console&, Console*>) [52]
+                0.00    0.00       1/3           std::deque<Console, std::allocator<Console> >::~deque() [57]
+[15]     0.0    0.00    0.00       3         std::_Deque_base<Console, std::allocator<Console> >::_M_get_Tp_allocator() [15]
+-----------------------------------------------
+                0.00    0.00       3/3           void std::swap<Console**>(Console**&, Console**&) [59]
+[16]     0.0    0.00    0.00       3         std::remove_reference<Console**&>::type&& std::move<Console**&>(Console**&) [16]
+-----------------------------------------------
+                0.00    0.00       3/3           void std::swap<unsigned int>(unsigned int&, unsigned int&) [60]
+[17]     0.0    0.00    0.00       3         std::remove_reference<unsigned int&>::type&& std::move<unsigned int&>(unsigned int&) [17]
+-----------------------------------------------
+                0.00    0.00       2/2           std::_Deque_base<Console, std::allocator<Console> >::_M_allocate_node() [24]
+[18]     0.0    0.00    0.00       2         __gnu_cxx::new_allocator<Console>::allocate(unsigned int, void const*) [18]
+                0.00    0.00       2/2           __gnu_cxx::new_allocator<Console>::max_size() const [20]
+-----------------------------------------------
+                0.00    0.00       2/2           std::_Deque_base<Console, std::allocator<Console> >::_M_allocate_map(unsigned int) [22]
+[19]     0.0    0.00    0.00       2         __gnu_cxx::new_allocator<Console*>::allocate(unsigned int, void const*) [19]
+                0.00    0.00       2/2           __gnu_cxx::new_allocator<Console*>::max_size() const [21]
+-----------------------------------------------
+                0.00    0.00       2/2           __gnu_cxx::new_allocator<Console>::allocate(unsigned int, void const*) [18]
+[20]     0.0    0.00    0.00       2         __gnu_cxx::new_allocator<Console>::max_size() const [20]
+-----------------------------------------------
+                0.00    0.00       2/2           __gnu_cxx::new_allocator<Console*>::allocate(unsigned int, void const*) [19]
+[21]     0.0    0.00    0.00       2         __gnu_cxx::new_allocator<Console*>::max_size() const [21]
+-----------------------------------------------
+                0.00    0.00       2/2           std::_Deque_base<Console, std::allocator<Console> >::_M_initialize_map(unsigned int) [25]
+[22]     0.0    0.00    0.00       2         std::_Deque_base<Console, std::allocator<Console> >::_M_allocate_map(unsigned int) [22]
+                0.00    0.00       2/3           std::_Deque_base<Console, std::allocator<Console> >::_M_get_map_allocator() const [12]
+                0.00    0.00       2/2           __gnu_cxx::new_allocator<Console*>::allocate(unsigned int, void const*) [19]
+                0.00    0.00       2/3           std::allocator<Console*>::~allocator() [14]
+-----------------------------------------------
+                0.00    0.00       2/2           std::_Deque_base<Console, std::allocator<Console> >::_M_initialize_map(unsigned int) [25]
+[23]     0.0    0.00    0.00       2         std::_Deque_base<Console, std::allocator<Console> >::_M_create_nodes(Console**, Console**) [23]
+                0.00    0.00       2/2           std::_Deque_base<Console, std::allocator<Console> >::_M_allocate_node() [24]
+-----------------------------------------------
+                0.00    0.00       2/2           std::_Deque_base<Console, std::allocator<Console> >::_M_create_nodes(Console**, Console**) [23]
+[24]     0.0    0.00    0.00       2         std::_Deque_base<Console, std::allocator<Console> >::_M_allocate_node() [24]
+                0.00    0.00       2/12          std::__deque_buf_size(unsigned int) [2]
+                0.00    0.00       2/2           __gnu_cxx::new_allocator<Console>::allocate(unsigned int, void const*) [18]
+-----------------------------------------------
+                0.00    0.00       1/2           std::_Deque_base<Console, std::allocator<Console> >::_Deque_base(std::_Deque_base<Console, std::allocator<Console> >&&) [47]
+                0.00    0.00       1/2           std::_Deque_base<Console, std::allocator<Console> >::_Deque_base() [48]
+[25]     0.0    0.00    0.00       2         std::_Deque_base<Console, std::allocator<Console> >::_M_initialize_map(unsigned int) [25]
+                0.00    0.00       4/12          std::__deque_buf_size(unsigned int) [2]
+                0.00    0.00       4/4           std::_Deque_iterator<Console, Console&, Console*>::_M_set_node(Console**) [7]
+                0.00    0.00       2/2           unsigned int const& std::max<unsigned int>(unsigned int const&, unsigned int const&) [26]
+                0.00    0.00       2/2           std::_Deque_base<Console, std::allocator<Console> >::_M_allocate_map(unsigned int) [22]
+                0.00    0.00       2/2           std::_Deque_base<Console, std::allocator<Console> >::_M_create_nodes(Console**, Console**) [23]
+-----------------------------------------------
+                0.00    0.00       2/2           std::_Deque_base<Console, std::allocator<Console> >::_M_initialize_map(unsigned int) [25]
+[26]     0.0    0.00    0.00       2         unsigned int const& std::max<unsigned int>(unsigned int const&, unsigned int const&) [26]
+-----------------------------------------------
+                0.00    0.00       1/2           std::_Deque_base<Console, std::allocator<Console> >::_Deque_impl::_Deque_impl(std::allocator<Console>&&) [41]
+                0.00    0.00       1/2           std::_Deque_base<Console, std::allocator<Console> >::_Deque_base(std::_Deque_base<Console, std::allocator<Console> >&&) [47]
+[27]     0.0    0.00    0.00       2         std::remove_reference<std::allocator<Console>&>::type&& std::move<std::allocator<Console>&>(std::allocator<Console>&) [27]
+-----------------------------------------------
+                0.00    0.00       1/2           std::deque<Console, std::allocator<Console> >::deque(std::deque<Console, std::allocator<Console> >&&) [55]
+                0.00    0.00       1/2           std::queue<Console, std::deque<Console, std::allocator<Console> > >::queue(std::deque<Console, std::allocator<Console> >&&) [58]
+[28]     0.0    0.00    0.00       2         std::remove_reference<std::deque<Console, std::allocator<Console> >&>::type&& std::move<std::deque<Console, std::allocator<Console> >&>(std::deque<Console, std::allocator<Console> >&) [28]
+-----------------------------------------------
+                0.00    0.00       2/2           std::_Deque_base<Console, std::allocator<Console> >::_Deque_base(std::_Deque_base<Console, std::allocator<Console> >&&) [47]
+[29]     0.0    0.00    0.00       2         void std::swap<std::_Deque_iterator<Console, Console&, Console*> >(std::_Deque_iterator<Console, Console&, Console*>&, std::_Deque_iterator<Console, Console&, Console*>&) [29]
+                0.00    0.00       6/6           std::remove_reference<std::_Deque_iterator<Console, Console&, Console*>&>::type&& std::move<std::_Deque_iterator<Console, Console&, Console*>&>(std::_Deque_iterator<Console, Console&, Console*>&) [5]
+                0.00    0.00       2/6           std::_Deque_iterator<Console, Console&, Console*>::_Deque_iterator(std::_Deque_iterator<Console, Console&, Console*> const&) [4]
+-----------------------------------------------
+                0.00    0.00       1/1           main [2717]
+[30]     0.0    0.00    0.00       1         labMenu() [30]
+-----------------------------------------------
+                0.00    0.00       1/1           std::_Deque_base<Console, std::allocator<Console> >::_M_deallocate_node(Console*) [46]
+[31]     0.0    0.00    0.00       1         __gnu_cxx::new_allocator<Console>::deallocate(Console*, unsigned int) [31]
+-----------------------------------------------
+                0.00    0.00       1/1           std::allocator<Console>::allocator(std::allocator<Console> const&) [38]
+[32]     0.0    0.00    0.00       1         __gnu_cxx::new_allocator<Console>::new_allocator(__gnu_cxx::new_allocator<Console> const&) [32]
+-----------------------------------------------
+                0.00    0.00       1/1           std::allocator<Console>::allocator() [39]
+[33]     0.0    0.00    0.00       1         __gnu_cxx::new_allocator<Console>::new_allocator() [33]
+-----------------------------------------------
+                0.00    0.00       1/1           std::allocator<Console>::~allocator() [40]
+[34]     0.0    0.00    0.00       1         __gnu_cxx::new_allocator<Console>::~new_allocator() [34]
+-----------------------------------------------
+                0.00    0.00       1/1           std::_Deque_base<Console, std::allocator<Console> >::_M_deallocate_map(Console**, unsigned int) [45]
+[35]     0.0    0.00    0.00       1         __gnu_cxx::new_allocator<Console*>::deallocate(Console**, unsigned int) [35]
+-----------------------------------------------
+                0.00    0.00       1/1           std::queue<Console, std::deque<Console, std::allocator<Console> > >::size() const [37]
+[36]     0.0    0.00    0.00       1         std::deque<Console, std::allocator<Console> >::size() const [36]
+                0.00    0.00       1/1           std::_Deque_iterator<Console, Console&, Console*>::difference_type std::operator-<Console, Console&, Console*>(std::_Deque_iterator<Console, Console&, Console*> const&, std::_Deque_iterator<Console, Console&, Console*> const&) [63]
+-----------------------------------------------
+                0.00    0.00       1/1           main [2717]
+[37]     0.0    0.00    0.00       1         std::queue<Console, std::deque<Console, std::allocator<Console> > >::size() const [37]
+                0.00    0.00       1/1           std::deque<Console, std::allocator<Console> >::size() const [36]
+-----------------------------------------------
+                0.00    0.00       1/1           std::_Deque_base<Console, std::allocator<Console> >::_Deque_impl::_Deque_impl(std::allocator<Console>&&) [41]
+[38]     0.0    0.00    0.00       1         std::allocator<Console>::allocator(std::allocator<Console> const&) [38]
+                0.00    0.00       1/1           __gnu_cxx::new_allocator<Console>::new_allocator(__gnu_cxx::new_allocator<Console> const&) [32]
+-----------------------------------------------
+                0.00    0.00       1/1           std::_Deque_base<Console, std::allocator<Console> >::_Deque_impl::_Deque_impl() [42]
+[39]     0.0    0.00    0.00       1         std::allocator<Console>::allocator() [39]
+                0.00    0.00       1/1           __gnu_cxx::new_allocator<Console>::new_allocator() [33]
+-----------------------------------------------
+                0.00    0.00       1/1           std::_Deque_base<Console, std::allocator<Console> >::_Deque_impl::~_Deque_impl() [43]
+[40]     0.0    0.00    0.00       1         std::allocator<Console>::~allocator() [40]
+                0.00    0.00       1/1           __gnu_cxx::new_allocator<Console>::~new_allocator() [34]
+-----------------------------------------------
+                0.00    0.00       1/1           std::_Deque_base<Console, std::allocator<Console> >::_Deque_base(std::_Deque_base<Console, std::allocator<Console> >&&) [47]
+[41]     0.0    0.00    0.00       1         std::_Deque_base<Console, std::allocator<Console> >::_Deque_impl::_Deque_impl(std::allocator<Console>&&) [41]
+                0.00    0.00       2/4           std::_Deque_iterator<Console, Console&, Console*>::_Deque_iterator() [8]
+                0.00    0.00       1/2           std::remove_reference<std::allocator<Console>&>::type&& std::move<std::allocator<Console>&>(std::allocator<Console>&) [27]
+                0.00    0.00       1/1           std::allocator<Console>::allocator(std::allocator<Console> const&) [38]
+-----------------------------------------------
+                0.00    0.00       1/1           std::_Deque_base<Console, std::allocator<Console> >::_Deque_base() [48]
+[42]     0.0    0.00    0.00       1         std::_Deque_base<Console, std::allocator<Console> >::_Deque_impl::_Deque_impl() [42]
+                0.00    0.00       2/4           std::_Deque_iterator<Console, Console&, Console*>::_Deque_iterator() [8]
+                0.00    0.00       1/1           std::allocator<Console>::allocator() [39]
+-----------------------------------------------
+                0.00    0.00       1/1           std::_Deque_base<Console, std::allocator<Console> >::~_Deque_base() [49]
+[43]     0.0    0.00    0.00       1         std::_Deque_base<Console, std::allocator<Console> >::_Deque_impl::~_Deque_impl() [43]
+                0.00    0.00       1/1           std::allocator<Console>::~allocator() [40]
+-----------------------------------------------
+                0.00    0.00       1/1           std::_Deque_base<Console, std::allocator<Console> >::~_Deque_base() [49]
+[44]     0.0    0.00    0.00       1         std::_Deque_base<Console, std::allocator<Console> >::_M_destroy_nodes(Console**, Console**) [44]
+                0.00    0.00       1/1           std::_Deque_base<Console, std::allocator<Console> >::_M_deallocate_node(Console*) [46]
+-----------------------------------------------
+                0.00    0.00       1/1           std::_Deque_base<Console, std::allocator<Console> >::~_Deque_base() [49]
+[45]     0.0    0.00    0.00       1         std::_Deque_base<Console, std::allocator<Console> >::_M_deallocate_map(Console**, unsigned int) [45]
+                0.00    0.00       1/3           std::_Deque_base<Console, std::allocator<Console> >::_M_get_map_allocator() const [12]
+                0.00    0.00       1/1           __gnu_cxx::new_allocator<Console*>::deallocate(Console**, unsigned int) [35]
+                0.00    0.00       1/3           std::allocator<Console*>::~allocator() [14]
+-----------------------------------------------
+                0.00    0.00       1/1           std::_Deque_base<Console, std::allocator<Console> >::_M_destroy_nodes(Console**, Console**) [44]
+[46]     0.0    0.00    0.00       1         std::_Deque_base<Console, std::allocator<Console> >::_M_deallocate_node(Console*) [46]
+                0.00    0.00       1/12          std::__deque_buf_size(unsigned int) [2]
+                0.00    0.00       1/1           __gnu_cxx::new_allocator<Console>::deallocate(Console*, unsigned int) [31]
+-----------------------------------------------
+                0.00    0.00       1/1           std::deque<Console, std::allocator<Console> >::deque(std::deque<Console, std::allocator<Console> >&&) [55]
+[47]     0.0    0.00    0.00       1         std::_Deque_base<Console, std::allocator<Console> >::_Deque_base(std::_Deque_base<Console, std::allocator<Console> >&&) [47]
+                0.00    0.00       2/2           void std::swap<std::_Deque_iterator<Console, Console&, Console*> >(std::_Deque_iterator<Console, Console&, Console*>&, std::_Deque_iterator<Console, Console&, Console*>&) [29]
+                0.00    0.00       1/3           std::_Deque_base<Console, std::allocator<Console> >::_M_get_Tp_allocator() [15]
+                0.00    0.00       1/2           std::remove_reference<std::allocator<Console>&>::type&& std::move<std::allocator<Console>&>(std::allocator<Console>&) [27]
+                0.00    0.00       1/1           std::_Deque_base<Console, std::allocator<Console> >::_Deque_impl::_Deque_impl(std::allocator<Console>&&) [41]
+                0.00    0.00       1/2           std::_Deque_base<Console, std::allocator<Console> >::_M_initialize_map(unsigned int) [25]
+                0.00    0.00       1/1           void std::swap<Console**>(Console**&, Console**&) [59]
+                0.00    0.00       1/1           void std::swap<unsigned int>(unsigned int&, unsigned int&) [60]
+-----------------------------------------------
+                0.00    0.00       1/1           std::deque<Console, std::allocator<Console> >::deque() [56]
+[48]     0.0    0.00    0.00       1         std::_Deque_base<Console, std::allocator<Console> >::_Deque_base() [48]
+                0.00    0.00       1/1           std::_Deque_base<Console, std::allocator<Console> >::_Deque_impl::_Deque_impl() [42]
+                0.00    0.00       1/2           std::_Deque_base<Console, std::allocator<Console> >::_M_initialize_map(unsigned int) [25]
+-----------------------------------------------
+                0.00    0.00       1/1           std::deque<Console, std::allocator<Console> >::~deque() [57]
+[49]     0.0    0.00    0.00       1         std::_Deque_base<Console, std::allocator<Console> >::~_Deque_base() [49]
+                0.00    0.00       1/1           std::_Deque_base<Console, std::allocator<Console> >::_M_destroy_nodes(Console**, Console**) [44]
+                0.00    0.00       1/1           std::_Deque_base<Console, std::allocator<Console> >::_M_deallocate_map(Console**, unsigned int) [45]
+                0.00    0.00       1/1           std::_Deque_base<Console, std::allocator<Console> >::_Deque_impl::~_Deque_impl() [43]
+-----------------------------------------------
+                0.00    0.00       1/1           void std::_Destroy<Console*>(Console*, Console*) [61]
+[50]     0.0    0.00    0.00       1         void std::_Destroy_aux<false>::__destroy<Console*>(Console*, Console*) [50]
+-----------------------------------------------
+                0.00    0.00       1/1           std::deque<Console, std::allocator<Console> >::~deque() [57]
+[51]     0.0    0.00    0.00       1         std::deque<Console, std::allocator<Console> >::_M_destroy_data(std::_Deque_iterator<Console, Console&, Console*>, std::_Deque_iterator<Console, Console&, Console*>, std::allocator<Console> const&) [51]
+                0.00    0.00       2/6           std::_Deque_iterator<Console, Console&, Console*>::_Deque_iterator(std::_Deque_iterator<Console, Console&, Console*> const&) [4]
+                0.00    0.00       1/1           std::deque<Console, std::allocator<Console> >::_M_destroy_data_aux(std::_Deque_iterator<Console, Console&, Console*>, std::_Deque_iterator<Console, Console&, Console*>) [52]
+-----------------------------------------------
+                0.00    0.00       1/1           std::deque<Console, std::allocator<Console> >::_M_destroy_data(std::_Deque_iterator<Console, Console&, Console*>, std::_Deque_iterator<Console, Console&, Console*>, std::allocator<Console> const&) [51]
+[52]     0.0    0.00    0.00       1         std::deque<Console, std::allocator<Console> >::_M_destroy_data_aux(std::_Deque_iterator<Console, Console&, Console*>, std::_Deque_iterator<Console, Console&, Console*>) [52]
+                0.00    0.00       1/3           std::_Deque_base<Console, std::allocator<Console> >::_M_get_Tp_allocator() [15]
+                0.00    0.00       1/1           void std::_Destroy<Console*, Console>(Console*, Console*, std::allocator<Console>&) [62]
+-----------------------------------------------
+                0.00    0.00       1/1           std::deque<Console, std::allocator<Console> >::~deque() [57]
+[53]     0.0    0.00    0.00       1         std::deque<Console, std::allocator<Console> >::end() [53]
+                0.00    0.00       1/6           std::_Deque_iterator<Console, Console&, Console*>::_Deque_iterator(std::_Deque_iterator<Console, Console&, Console*> const&) [4]
+-----------------------------------------------
+                0.00    0.00       1/1           std::deque<Console, std::allocator<Console> >::~deque() [57]
+[54]     0.0    0.00    0.00       1         std::deque<Console, std::allocator<Console> >::begin() [54]
+                0.00    0.00       1/6           std::_Deque_iterator<Console, Console&, Console*>::_Deque_iterator(std::_Deque_iterator<Console, Console&, Console*> const&) [4]
+-----------------------------------------------
+                0.00    0.00       1/1           std::queue<Console, std::deque<Console, std::allocator<Console> > >::queue(std::deque<Console, std::allocator<Console> >&&) [58]
+[55]     0.0    0.00    0.00       1         std::deque<Console, std::allocator<Console> >::deque(std::deque<Console, std::allocator<Console> >&&) [55]
+                0.00    0.00       1/2           std::remove_reference<std::deque<Console, std::allocator<Console> >&>::type&& std::move<std::deque<Console, std::allocator<Console> >&>(std::deque<Console, std::allocator<Console> >&) [28]
+                0.00    0.00       1/1           std::_Deque_base<Console, std::allocator<Console> >::_Deque_base(std::_Deque_base<Console, std::allocator<Console> >&&) [47]
+-----------------------------------------------
+                0.00    0.00       1/1           main [2717]
+[56]     0.0    0.00    0.00       1         std::deque<Console, std::allocator<Console> >::deque() [56]
+                0.00    0.00       1/1           std::_Deque_base<Console, std::allocator<Console> >::_Deque_base() [48]
+-----------------------------------------------
+                0.00    0.00       1/1           main [2717]
+[57]     0.0    0.00    0.00       1         std::deque<Console, std::allocator<Console> >::~deque() [57]
+                0.00    0.00       1/3           std::_Deque_base<Console, std::allocator<Console> >::_M_get_Tp_allocator() [15]
+                0.00    0.00       1/1           std::deque<Console, std::allocator<Console> >::end() [53]
+                0.00    0.00       1/1           std::deque<Console, std::allocator<Console> >::begin() [54]
+                0.00    0.00       1/1           std::deque<Console, std::allocator<Console> >::_M_destroy_data(std::_Deque_iterator<Console, Console&, Console*>, std::_Deque_iterator<Console, Console&, Console*>, std::allocator<Console> const&) [51]
+                0.00    0.00       1/1           std::_Deque_base<Console, std::allocator<Console> >::~_Deque_base() [49]
+-----------------------------------------------
+                0.00    0.00       1/1           main [2717]
+[58]     0.0    0.00    0.00       1         std::queue<Console, std::deque<Console, std::allocator<Console> > >::queue(std::deque<Console, std::allocator<Console> >&&) [58]
+                0.00    0.00       1/2           std::remove_reference<std::deque<Console, std::allocator<Console> >&>::type&& std::move<std::deque<Console, std::allocator<Console> >&>(std::deque<Console, std::allocator<Console> >&) [28]
+                0.00    0.00       1/1           std::deque<Console, std::allocator<Console> >::deque(std::deque<Console, std::allocator<Console> >&&) [55]
+-----------------------------------------------
+                0.00    0.00       1/1           std::_Deque_base<Console, std::allocator<Console> >::_Deque_base(std::_Deque_base<Console, std::allocator<Console> >&&) [47]
+[59]     0.0    0.00    0.00       1         void std::swap<Console**>(Console**&, Console**&) [59]
+                0.00    0.00       3/3           std::remove_reference<Console**&>::type&& std::move<Console**&>(Console**&) [16]
+-----------------------------------------------
+                0.00    0.00       1/1           std::_Deque_base<Console, std::allocator<Console> >::_Deque_base(std::_Deque_base<Console, std::allocator<Console> >&&) [47]
+[60]     0.0    0.00    0.00       1         void std::swap<unsigned int>(unsigned int&, unsigned int&) [60]
+                0.00    0.00       3/3           std::remove_reference<unsigned int&>::type&& std::move<unsigned int&>(unsigned int&) [17]
+-----------------------------------------------
+                0.00    0.00       1/1           void std::_Destroy<Console*, Console>(Console*, Console*, std::allocator<Console>&) [62]
+[61]     0.0    0.00    0.00       1         void std::_Destroy<Console*>(Console*, Console*) [61]
+                0.00    0.00       1/1           void std::_Destroy_aux<false>::__destroy<Console*>(Console*, Console*) [50]
+-----------------------------------------------
+                0.00    0.00       1/1           std::deque<Console, std::allocator<Console> >::_M_destroy_data_aux(std::_Deque_iterator<Console, Console&, Console*>, std::_Deque_iterator<Console, Console&, Console*>) [52]
+[62]     0.0    0.00    0.00       1         void std::_Destroy<Console*, Console>(Console*, Console*, std::allocator<Console>&) [62]
+                0.00    0.00       1/1           void std::_Destroy<Console*>(Console*, Console*) [61]
+-----------------------------------------------
+                0.00    0.00       1/1           std::deque<Console, std::allocator<Console> >::size() const [36]
+[63]     0.0    0.00    0.00       1         std::_Deque_iterator<Console, Console&, Console*>::difference_type std::operator-<Console, Console&, Console*>(std::_Deque_iterator<Console, Console&, Console*> const&, std::_Deque_iterator<Console, Console&, Console*> const&) [63]
+                0.00    0.00       1/5           std::_Deque_iterator<Console, Console&, Console*>::_S_buffer_size() [6]
+-----------------------------------------------
+
+ This table describes the call tree of the program, and was sorted by
+ the total amount of time spent in each function and its children.
+
+ Each entry in this table consists of several lines.  The line with the
+ index number at the left hand margin lists the current function.
+ The lines above it list the functions that called this function,
+ and the lines below it list the functions this one called.
+ This line lists:
+     index	A unique number given to each element of the table.
+		Index numbers are sorted numerically.
+		The index number is printed next to every function name so
+		it is easier to look up where the function is in the table.
+
+     % time	This is the percentage of the `total' time that was spent
+		in this function and its children.  Note that due to
+		different viewpoints, functions excluded by options, etc,
+		these numbers will NOT add up to 100%.
+
+     self	This is the total amount of time spent in this function.
+
+     children	This is the total amount of time propagated into this
+		function by its children.
+
+     called	This is the number of times the function was called.
+		If the function called itself recursively, the number
+		only includes non-recursive calls, and is followed by
+		a `+' and the number of recursive calls.
+
+     name	The name of the current function.  The index number is
+		printed after it.  If the function is a member of a
+		cycle, the cycle number is printed between the
+		function's name and the index number.
+
+
+ For the function's parents, the fields have the following meanings:
+
+     self	This is the amount of time that was propagated directly
+		from the function into this parent.
+
+     children	This is the amount of time that was propagated from
+		the function's children into this parent.
+
+     called	This is the number of times this parent called the
+		function `/' the total number of times the function
+		was called.  Recursive calls to the function are not
+		included in the number after the `/'.
+
+     name	This is the name of the parent.  The parent's index
+		number is printed after it.  If the parent is a
+		member of a cycle, the cycle number is printed between
+		the name and the index number.
+
+ If the parents of the function cannot be determined, the word
+ `<spontaneous>' is printed in the `name' field, and all the other
+ fields are blank.
+
+ For the function's children, the fields have the following meanings:
+
+     self	This is the amount of time that was propagated directly
+		from the child into the function.
+
+     children	This is the amount of time that was propagated from the
+		child's children to the function.
+
+     called	This is the number of times the function called
+		this child `/' the total number of times the child
+		was called.  Recursive calls by the child are not
+		listed in the number after the `/'.
+
+     name	This is the name of the child.  The child's index
+		number is printed after it.  If the child is a
+		member of a cycle, the cycle number is printed
+		between the name and the index number.
+
+ If there are any cycles (circles) in the call graph, there is an
+ entry for the cycle-as-a-whole.  This entry shows who called the
+ cycle (as parents) and the members of the cycle (as children.)
+ The `+' recursive calls entry shows the number of function calls that
+ were internal to the cycle, and the calls entry for each member shows,
+ for that member, how many times it was called from other members of
+ the cycle.
+
+Copyright (C) 2012 Free Software Foundation, Inc.
+
+Copying and distribution of this file, with or without modification,
+are permitted in any medium without royalty provided the copyright
+notice and this notice are preserved.
+
+Index by function name
+
+  [30] labMenu()              [14] std::allocator<Console*>::~allocator() [52] std::deque<Console, std::allocator<Console> >::_M_destroy_data_aux(std::_Deque_iterator<Console, Console&, Console*>, std::_Deque_iterator<Console, Console&, Console*>)
+   [3] LabList::LabList()     [41] std::_Deque_base<Console, std::allocator<Console> >::_Deque_impl::_Deque_impl(std::allocator<Console>&&) [53] std::deque<Console, std::allocator<Console> >::end()
+  [31] __gnu_cxx::new_allocator<Console>::deallocate(Console*, unsigned int) [42] std::_Deque_base<Console, std::allocator<Console> >::_Deque_impl::_Deque_impl() [54] std::deque<Console, std::allocator<Console> >::begin()
+  [18] __gnu_cxx::new_allocator<Console>::allocate(unsigned int, void const*) [43] std::_Deque_base<Console, std::allocator<Console> >::_Deque_impl::~_Deque_impl() [55] std::deque<Console, std::allocator<Console> >::deque(std::deque<Console, std::allocator<Console> >&&)
+  [32] __gnu_cxx::new_allocator<Console>::new_allocator(__gnu_cxx::new_allocator<Console> const&) [22] std::_Deque_base<Console, std::allocator<Console> >::_M_allocate_map(unsigned int) [56] std::deque<Console, std::allocator<Console> >::deque()
+  [33] __gnu_cxx::new_allocator<Console>::new_allocator() [23] std::_Deque_base<Console, std::allocator<Console> >::_M_create_nodes(Console**, Console**) [57] std::deque<Console, std::allocator<Console> >::~deque()
+  [34] __gnu_cxx::new_allocator<Console>::~new_allocator() [24] std::_Deque_base<Console, std::allocator<Console> >::_M_allocate_node() [58] std::queue<Console, std::deque<Console, std::allocator<Console> > >::queue(std::deque<Console, std::allocator<Console> >&&)
+  [35] __gnu_cxx::new_allocator<Console*>::deallocate(Console**, unsigned int) [44] std::_Deque_base<Console, std::allocator<Console> >::_M_destroy_nodes(Console**, Console**) [2] std::__deque_buf_size(unsigned int)
+  [19] __gnu_cxx::new_allocator<Console*>::allocate(unsigned int, void const*) [45] std::_Deque_base<Console, std::allocator<Console> >::_M_deallocate_map(Console**, unsigned int) [26] unsigned int const& std::max<unsigned int>(unsigned int const&, unsigned int const&)
+   [9] __gnu_cxx::new_allocator<Console*>::new_allocator() [25] std::_Deque_base<Console, std::allocator<Console> >::_M_initialize_map(unsigned int) [16] std::remove_reference<Console**&>::type&& std::move<Console**&>(Console**&)
+  [10] __gnu_cxx::new_allocator<Console*>::~new_allocator() [46] std::_Deque_base<Console, std::allocator<Console> >::_M_deallocate_node(Console*) [27] std::remove_reference<std::allocator<Console>&>::type&& std::move<std::allocator<Console>&>(std::allocator<Console>&)
+  [20] __gnu_cxx::new_allocator<Console>::max_size() const [15] std::_Deque_base<Console, std::allocator<Console> >::_M_get_Tp_allocator() [5] std::remove_reference<std::_Deque_iterator<Console, Console&, Console*>&>::type&& std::move<std::_Deque_iterator<Console, Console&, Console*>&>(std::_Deque_iterator<Console, Console&, Console*>&)
+  [21] __gnu_cxx::new_allocator<Console*>::max_size() const [47] std::_Deque_base<Console, std::allocator<Console> >::_Deque_base(std::_Deque_base<Console, std::allocator<Console> >&&) [28] std::remove_reference<std::deque<Console, std::allocator<Console> >&>::type&& std::move<std::deque<Console, std::allocator<Console> >&>(std::deque<Console, std::allocator<Console> >&)
+  [11] std::_Deque_base<Console, std::allocator<Console> >::_M_get_Tp_allocator() const [48] std::_Deque_base<Console, std::allocator<Console> >::_Deque_base() [17] std::remove_reference<unsigned int&>::type&& std::move<unsigned int&>(unsigned int&)
+  [12] std::_Deque_base<Console, std::allocator<Console> >::_M_get_map_allocator() const [49] std::_Deque_base<Console, std::allocator<Console> >::~_Deque_base() [59] void std::swap<Console**>(Console**&, Console**&)
+  [36] std::deque<Console, std::allocator<Console> >::size() const [50] void std::_Destroy_aux<false>::__destroy<Console*>(Console*, Console*) [29] void std::swap<std::_Deque_iterator<Console, Console&, Console*> >(std::_Deque_iterator<Console, Console&, Console*>&, std::_Deque_iterator<Console, Console&, Console*>&)
+  [37] std::queue<Console, std::deque<Console, std::allocator<Console> > >::size() const [7] std::_Deque_iterator<Console, Console&, Console*>::_M_set_node(Console**) [60] void std::swap<unsigned int>(unsigned int&, unsigned int&)
+  [38] std::allocator<Console>::allocator(std::allocator<Console> const&) [6] std::_Deque_iterator<Console, Console&, Console*>::_S_buffer_size() [61] void std::_Destroy<Console*>(Console*, Console*)
+  [39] std::allocator<Console>::allocator() [4] std::_Deque_iterator<Console, Console&, Console*>::_Deque_iterator(std::_Deque_iterator<Console, Console&, Console*> const&) [62] void std::_Destroy<Console*, Console>(Console*, Console*, std::allocator<Console>&)
+  [40] std::allocator<Console>::~allocator() [8] std::_Deque_iterator<Console, Console&, Console*>::_Deque_iterator() [63] std::_Deque_iterator<Console, Console&, Console*>::difference_type std::operator-<Console, Console&, Console*>(std::_Deque_iterator<Console, Console&, Console*> const&, std::_Deque_iterator<Console, Console&, Console*> const&)
+  [13] std::allocator<Console*>::allocator<Console>(std::allocator<Console> const&) [51] std::deque<Console, std::allocator<Console> >::_M_destroy_data(std::_Deque_iterator<Console, Console&, Console*>, std::_Deque_iterator<Console, Console&, Console*>, std::allocator<Console> const&)

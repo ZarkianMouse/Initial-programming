@@ -1,0 +1,26 @@
+# depslib dependency file v1.0
+1510186652 source:c:\users\naomi\documents\programming (college)\codeblocks assignments\assignh_maps\main.cpp
+	<iostream>
+	<iomanip>
+	<cstdlib>
+	<fstream>
+	<map>
+	<string>
+	"MapFunctions.hpp"
+
+1510186652 c:\users\naomi\documents\programming (college)\codeblocks assignments\assignh_maps\mapfunctions.hpp
+	<iostream>
+	<iomanip>
+	<cstdlib>
+	<fstream>
+	<map>
+	<string>
+
+1510186652 source:c:\users\naomi\documents\programming (college)\codeblocks assignments\assignh_maps\mapfunctions.cpp
+	<iostream>
+	<iomanip>
+	<cstdlib>
+	<fstream>
+	<map>
+	<string>
+

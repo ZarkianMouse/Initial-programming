@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1513030345 source:c:\users\naomi\documents\programming (college)\codeblocks assignments\exceptions\main.cpp
+	<iostream>
+	<fstream>
+	<exception>
+

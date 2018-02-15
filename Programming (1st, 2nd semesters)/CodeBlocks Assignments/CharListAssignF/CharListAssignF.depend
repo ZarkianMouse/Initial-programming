@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1508220934 source:c:\users\naomi\documents\programming (college)\codeblocks assignments\charlistassignf\charlist_main.cpp
+	<iostream>
+	"charList.hpp"
+
+1508220934 c:\users\naomi\documents\programming (college)\codeblocks assignments\charlistassignf\charlist.hpp
+
+1508220463 source:c:\users\naomi\documents\programming (college)\codeblocks assignments\charlistassignf\charlist.cpp
+	<iostream>
+	"charList.hpp"
+

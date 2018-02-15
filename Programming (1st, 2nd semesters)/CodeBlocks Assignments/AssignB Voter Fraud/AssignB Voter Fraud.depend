@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1505791873 source:c:\users\naomi\documents\programming (college)\codeblocks assignments\assignb voter fraud\main.cpp
+	<iostream>
+	<fstream>
+	<iomanip>
+	<cstdlib>
+	<limits>
+	<string>
+	<vector>
+	"Voter_class.hpp"
+
+1505787774 c:\users\naomi\documents\programming (college)\codeblocks assignments\assignb voter fraud\voter_class.hpp
+	<string>
+

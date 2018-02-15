@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1481430959 source:c:\users\naomi_000\documents\codeblocks assignments\advent wreath\main.cpp
+	<iostream>
+	<fstream>
+	<string>
+	"checkOpen.hpp"
+	"fillArr.hpp"
+	"setColor_Permissive.hpp"
+
+1481428887 c:\users\naomi_000\documents\codeblocks assignments\advent wreath\checkopen.hpp
+
+1481429148 c:\users\naomi_000\documents\codeblocks assignments\advent wreath\fillarr.hpp
+
+1481432068 c:\users\naomi_000\documents\codeblocks assignments\advent wreath\setcolor_permissive.hpp
+	<windows.h>
+	<stdio.h>
+

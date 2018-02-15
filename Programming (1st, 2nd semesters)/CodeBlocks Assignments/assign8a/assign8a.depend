@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1479871560 source:c:\users\naomi_000\documents\codeblocks assignments\assign8a\main.cpp
+	<iostream>
+	<cstdlib>
+	<limits>
+	<iomanip>
+	<fstream>
+	"checkOpen.hpp"
+	"readPhrase.hpp"
+	"translatePhrase.hpp"
+
+1479864135 c:\users\naomi_000\documents\codeblocks assignments\assign8a\checkopen.hpp
+
+1479871632 c:\users\naomi_000\documents\codeblocks assignments\assign8a\readphrase.hpp
+
+1479871201 c:\users\naomi_000\documents\codeblocks assignments\assign8a\translatephrase.hpp
+

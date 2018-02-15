@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1507623769 source:c:\users\naomi\documents\programming (college)\codeblocks assignments\printingassigneburhoe\main.cpp
+	<iostream>
+	"myFunction.hpp"
+	"namespace.h"
+
+1507623833 c:\users\naomi\documents\programming (college)\codeblocks assignments\printingassigneburhoe\myfunction.hpp
+	"namespace.h"
+
+1507623613 c:\users\naomi\documents\programming (college)\codeblocks assignments\printingassigneburhoe\namespace.h
+

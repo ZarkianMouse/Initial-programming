@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1478746883 source:c:\users\naomi_000\documents\codeblocks assignments\7b\main.cpp
+	<iostream>
+	<fstream>
+	<limits>
+

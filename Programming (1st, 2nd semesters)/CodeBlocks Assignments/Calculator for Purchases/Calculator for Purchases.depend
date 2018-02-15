@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1484187266 source:c:\users\naomi_000\documents\codeblocks assignments\calculator for purchases\main.cpp
+	<iostream>
+	<iomanip>
+	<limits>
+
